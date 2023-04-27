@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>特殊な機能を持つ要素</title>
+</head>
+<body>
+<h1>ruby要素、rt要素、rp要素</h1>
+
+<h2>基本形</h2>
+<p>
+  <ruby>
+    構<rt>こう</rt>
+    造<rt>ぞう</rt>
+  </ruby>
+</p>
+<p>ruby要素未サポートのブラウザでは、「構こう造ぞう」と表示されます。</p>
+
+<h2>ruby要素未サポートのブラウザに対応</h2>
+<p>
+  <ruby>
+    構<rp>(</rp><rt>こう</rt><rp>)</rp>
+    造<rp>(</rp><rt>ぞう</rt><rp>)</rp>
+  </ruby>
+</p>
+<p>ruby要素未サポートのブラウザでは、「構(こう)造(ぞう)」と表示されます。</p>
+
+</body>
+</html>

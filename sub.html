@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>ページ２</title>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <meta name="descripion" content="検索キーワード,kyo,itoku,athome">
+</head>
+<body>
+<header><a href="index.html">MAIN</a><h2>header<h2></header>
+<main>
+<div class="main" id="top">
+
+	<h2>・飲み会参加シート</h2>
+<form action="#" method="post">
+<p>名前</p>
+<input type="text" name="name" value="" placeholder="name" required>
+<p>社員番号</p>
+<input type="text" name="number" value="" placeholder="number">
+<p>食べたいもの</p>
+<p><label><input type="checkbox" name="field" value="">和食</label></p>
+<p><input  id="123" type="checkbox" name="field" value=""><label for="123">洋食</label></p>
+<p>飲み会は参加出来ますか？</p>
+<p><label><input type="radio" name="gender" value="" checked>無理</label></p>
+<p><label><input type="radio" name="gender" value="">できます</label></p>
+
+
+
+<p>飲み会date</p>
+<input type="date" name="detel" value="">
+<p>最初の飲み物</p>
+<select name="doriku">
+	<optgroup label="arucoru">
+		<option value="d1">ビール</option>
+		<option value="d2">日本酒</option>
+		<option value="d3">ハイボール</option>
+	</optgroup>
+	<optgroup label="sofuto">
+		<option value="d4">コーラ</option>
+		<option value="d5">ウーロン茶</option>
+	</optgroup>
+</select>
+<p>アレルギー</p>
+<textarea name="area1" rows="5" cols="30" placeholder="牛、海鮮、豚"></textarea>
+
+<br>
+<input type="hidden" name="hidden" value="sosinn">
+<input type="submit" name="submit" value="送信">
+
+</form>
+
+
+	
+<a href="#top" id="bt"><h2>上に戻る</h2></a>
+
+</div>
+</main>
+
+<footer>
+<h2>footer<h2>
+</footer>
+
+</body>
+</html>
