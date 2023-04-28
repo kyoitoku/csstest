@@ -1,24 +1,65 @@
-table tr th{
+table,tr,th,td{
 border:2px solid #FF0000;
 }
-table tr td{
-border:2px solid #FF0000;
-}
-table{
-border:2px solid #FF0000;
-}
+
 header{
 border:2px solid #FF0000;
 background:#DDDDDD;
 }
 main{
-border:2px solid #FF0000;
-background:#abcdef;
+    text-align: center;
 }
 footer{
 border:2px solid #FF0000;
 background:#DDDDDD;
 }
-.{
-background:#DDDDDD;
+*{
+background-color:#aaa;
+margin: 0 auto;
+}
+.content{
+    padding-left: 50px;
+    width: 80%;
+}
+.testfl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px;
+}
+.jico{
+    text-align: center;
+    padding: 50px 0;
+    font-size: large;
+}
+p{
+    padding-bottom: 10px;
+}
+dd{
+    padding-left: 40px;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+    list-style: none;
+}
+a:hover{
+    background-color: #000;
+}
+li{
+    list-style: none;
+    text-align: center;
+    background-color: bisque;
+    width: 200px;
+    padding: 10px;
+    border: #000 solid 1px;
+    border-radius: 60px;
+    box-shadow: inset;
+    opacity: 0.8;
+    background-image: url(./ダウンロード.png);
+    font-size: large;
+    color: chartreuse;
 }
